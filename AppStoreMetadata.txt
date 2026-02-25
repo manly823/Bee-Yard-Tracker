@@ -1,0 +1,72 @@
+==============================================================
+ BEE YARD TRACKER — APP STORE METADATA
+==============================================================
+
+APP NAME: Bee Yard Tracker
+
+SUBTITLE: Apiary Management & Inspection Log
+
+CATEGORY: Productivity / Utilities
+
+--------------------------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------
+Bee Yard Tracker is the ultimate companion app for beekeepers of all levels. Manage your entire apiary from your pocket — track hives, log inspections, record honey harvests, calculate feeding ratios, and follow seasonal task guides.
+
+KEY FEATURES:
+
+• HIVE MANAGEMENT — Add unlimited hives with detailed profiles including hive type (Langstroth, Top Bar, Warré, Flow), queen status, international marker color coding, queen age tracking, and location notes.
+
+• INSPECTION LOG — Record thorough hive inspections with a 12-point checklist: queen sighted, eggs, larvae, queen cells, brood pattern quality, honey stores, pollen stores, bee temperament, varroa mite count, and overall health rating.
+
+• HONEY HARVEST TRACKER — Log every harvest with weight, honey variety (Wildflower, Clover, Acacia, Linden, Buckwheat, Manuka, Mixed), and triple quality ratings for taste, clarity, and aroma. Track total yield across seasons.
+
+• FEEDING CALCULATOR — Calculate exact sugar syrup quantities with ratios for every situation: 1:1 light syrup for spring stimulation, 2:1 heavy syrup for fall winter prep, fondant for emergencies, and pollen patties for early spring protein.
+
+• SEASONAL CALENDAR — Month-by-month task guide for spring, summer, fall, and winter. Never miss a critical management window with 32 detailed seasonal tasks.
+
+• STATISTICS DASHBOARD — At-a-glance apiary overview: total hives, cumulative honey harvest, inspection count, average honey quality rating, and healthy hive percentage.
+
+All data is stored locally on your device. No account required. No subscription. No ads.
+
+--------------------------------------------------------------
+KEYWORDS
+--------------------------------------------------------------
+beekeeping, apiary, hive, inspection, honey, harvest, queen, brood, varroa, mite, feeding, syrup, beekeeper, colony, pollen
+
+--------------------------------------------------------------
+WHAT'S NEW (Version 1.0)
+--------------------------------------------------------------
+• Initial release
+• Hive management with queen tracking
+• Full inspection log with 12-point checklist
+• Honey harvest journal with quality ratings
+• Feeding calculator with 4 feed types
+• Seasonal calendar with 32 tasks
+• Animated honeycomb navigation menu
+• Warm honey-gold theme
+
+--------------------------------------------------------------
+SUPPORT URL
+--------------------------------------------------------------
+https://github.com/manly823/Bee-Yard-Tracker
+
+--------------------------------------------------------------
+PRIVACY POLICY
+--------------------------------------------------------------
+Bee Yard Tracker stores all data locally on your device using UserDefaults. No personal data is collected, transmitted, or shared with third parties. No analytics, no tracking, no ads.
+
+--------------------------------------------------------------
+AGE RATING
+--------------------------------------------------------------
+4+ (No objectionable content)
+
+--------------------------------------------------------------
+SCREENSHOTS (Recommended)
+--------------------------------------------------------------
+1. Main honeycomb menu with animated bee and stats bar
+2. Hive list with queen status badges and health indicators
+3. Inspection log with brood pattern, stores bars, and checklist
+4. Honey harvest cards with star ratings and type colors
+5. Feeding calculator with syrup ratio results
+6. Seasonal calendar with spring/summer/fall/winter tabs

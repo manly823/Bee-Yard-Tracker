@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10100001 /* BeeYardTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200001; };
+		A10100002 /* BeeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200002; };
+		A10100003 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200003; };
+		A10100004 /* CardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200004; };
+		A10100005 /* BeeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200005; };
+		A10100006 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200006; };
+		A10100007 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200007; };
+		A10100008 /* HivesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200008; };
+		A10100009 /* AddHiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200009; };
+		A10100010 /* InspectionLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200010; };
+		A10100011 /* AddInspectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200011; };
+		A10100012 /* HarvestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200012; };
+		A10100013 /* AddHarvestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200013; };
+		A10100014 /* FeedingCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200014; };
+		A10100015 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200015; };
+		A10100016 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200016; };
+		A10100017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10300001; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10200001 /* BeeYardTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeYardTrackerApp.swift; sourceTree = "<group>"; };
+		A10200002 /* BeeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeModels.swift; sourceTree = "<group>"; };
+		A10200003 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		A10200004 /* CardStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStyle.swift; sourceTree = "<group>"; };
+		A10200005 /* BeeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeManager.swift; sourceTree = "<group>"; };
+		A10200006 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A10200007 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A10200008 /* HivesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HivesView.swift; sourceTree = "<group>"; };
+		A10200009 /* AddHiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHiveView.swift; sourceTree = "<group>"; };
+		A10200010 /* InspectionLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionLogView.swift; sourceTree = "<group>"; };
+		A10200011 /* AddInspectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInspectionView.swift; sourceTree = "<group>"; };
+		A10200012 /* HarvestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarvestView.swift; sourceTree = "<group>"; };
+		A10200013 /* AddHarvestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHarvestView.swift; sourceTree = "<group>"; };
+		A10200014 /* FeedingCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingCalculatorView.swift; sourceTree = "<group>"; };
+		A10200015 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A10200016 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A10300001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10300002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10400001 /* BeeYardTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeYardTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10500001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10600001 = {
+			isa = PBXGroup;
+			children = (
+				A10600002 /* BeeYardTracker */,
+				A10600007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10600002 /* BeeYardTracker */ = {
+			isa = PBXGroup;
+			children = (
+				A10200001 /* BeeYardTrackerApp.swift */,
+				A10300002 /* Info.plist */,
+				A10300001 /* Assets.xcassets */,
+				A10600003 /* Models */,
+				A10600004 /* Helpers */,
+				A10600005 /* ViewModels */,
+				A10600006 /* Views */,
+			);
+			path = BeeYardTracker;
+			sourceTree = "<group>";
+		};
+		A10600003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A10200002 /* BeeModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A10600004 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A10200003 /* Storage.swift */,
+				A10200004 /* CardStyle.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A10600005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A10200005 /* BeeManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A10600006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A10200006 /* OnboardingView.swift */,
+				A10200007 /* MainView.swift */,
+				A10200008 /* HivesView.swift */,
+				A10200009 /* AddHiveView.swift */,
+				A10200010 /* InspectionLogView.swift */,
+				A10200011 /* AddInspectionView.swift */,
+				A10200012 /* HarvestView.swift */,
+				A10200013 /* AddHarvestView.swift */,
+				A10200014 /* FeedingCalculatorView.swift */,
+				A10200015 /* CalendarView.swift */,
+				A10200016 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A10600007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10400001 /* BeeYardTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10700001 /* BeeYardTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10900002 /* Build configuration list for PBXNativeTarget "BeeYardTracker" */;
+			buildPhases = (
+				A10800001 /* Sources */,
+				A10500001 /* Frameworks */,
+				A10800002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeYardTracker;
+			productName = BeeYardTracker;
+			productReference = A10400001 /* BeeYardTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10600000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A10700001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A10900001 /* Build configuration list for PBXProject "BeeYardTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10600001;
+			productRefGroup = A10600007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10700001 /* BeeYardTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10800002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10100017 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10800001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10100001 /* BeeYardTrackerApp.swift in Sources */,
+				A10100002 /* BeeModels.swift in Sources */,
+				A10100003 /* Storage.swift in Sources */,
+				A10100004 /* CardStyle.swift in Sources */,
+				A10100005 /* BeeManager.swift in Sources */,
+				A10100006 /* OnboardingView.swift in Sources */,
+				A10100007 /* MainView.swift in Sources */,
+				A10100008 /* HivesView.swift in Sources */,
+				A10100009 /* AddHiveView.swift in Sources */,
+				A10100010 /* InspectionLogView.swift in Sources */,
+				A10100011 /* AddInspectionView.swift in Sources */,
+				A10100012 /* HarvestView.swift in Sources */,
+				A10100013 /* AddHarvestView.swift in Sources */,
+				A10100014 /* FeedingCalculatorView.swift in Sources */,
+				A10100015 /* CalendarView.swift in Sources */,
+				A10100016 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10900003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10900004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10900005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeeYardTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bee Yard Tracker";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beeyardtracker.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10900006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeeYardTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bee Yard Tracker";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beeyardtracker.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10900001 /* Build configuration list for PBXProject "BeeYardTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10900003 /* Debug */,
+				A10900004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10900002 /* Build configuration list for PBXNativeTarget "BeeYardTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10900005 /* Debug */,
+				A10900006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = A10600000 /* Project object */;
+}
