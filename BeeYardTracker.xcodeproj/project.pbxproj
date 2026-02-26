@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10100001 /* BeeYardTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200001; };
-		A10100002 /* BeeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200002; };
-		A10100003 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200003; };
-		A10100004 /* CardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200004; };
-		A10100005 /* BeeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200005; };
-		A10100006 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200006; };
-		A10100007 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200007; };
-		A10100008 /* HivesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200008; };
-		A10100009 /* AddHiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200009; };
-		A10100010 /* InspectionLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200010; };
-		A10100011 /* AddInspectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200011; };
-		A10100012 /* HarvestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200012; };
-		A10100013 /* AddHarvestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200013; };
-		A10100014 /* FeedingCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200014; };
-		A10100015 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200015; };
-		A10100016 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200016; };
-		A10100017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10300001; };
+		A10100001 /* BeeYardTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200001 /* BeeYardTrackerApp.swift */; };
+		A10100002 /* BeeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200002 /* BeeModels.swift */; };
+		A10100003 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200003 /* Storage.swift */; };
+		A10100004 /* CardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200004 /* CardStyle.swift */; };
+		A10100005 /* BeeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200005 /* BeeManager.swift */; };
+		A10100006 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200006 /* OnboardingView.swift */; };
+		A10100007 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200007 /* MainView.swift */; };
+		A10100008 /* HivesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200008 /* HivesView.swift */; };
+		A10100009 /* AddHiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200009 /* AddHiveView.swift */; };
+		A10100010 /* InspectionLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200010 /* InspectionLogView.swift */; };
+		A10100011 /* AddInspectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200011 /* AddInspectionView.swift */; };
+		A10100012 /* HarvestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200012 /* HarvestView.swift */; };
+		A10100013 /* AddHarvestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200013 /* AddHarvestView.swift */; };
+		A10100014 /* FeedingCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200014 /* FeedingCalculatorView.swift */; };
+		A10100015 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200015 /* CalendarView.swift */; };
+		A10100016 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200016 /* SettingsView.swift */; };
+		A10100017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10300001 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -289,20 +289,23 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BeeYardTracker/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Bee Yard Tracker";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.beeyardtracker.app;
+				PRODUCT_BUNDLE_IDENTIFIER = serheyityshchen.beeyardtrackerapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,20 +320,23 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BeeYardTracker/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Bee Yard Tracker";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.beeyardtracker.app;
+				PRODUCT_BUNDLE_IDENTIFIER = serheyityshchen.beeyardtrackerapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -356,7 +362,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
 	};
 	rootObject = A10600000 /* Project object */;
 }
