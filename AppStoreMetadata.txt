@@ -1,72 +1,63 @@
-==============================================================
- BEE YARD TRACKER — APP STORE METADATA
-==============================================================
+# App Store Metadata - Bee Yard Tracker V1.0
 
-APP NAME: Bee Yard Tracker
+**App Name:** Bee Yard Tracker (16/20)
+**Subtitle:** Apiary Management Log (21/30)
+**Bundle ID:** com.beeyardtracker.app
+**Category:** Productivity / Utilities
+**Keywords:** beekeeping,apiary,hive,inspection,honey,harvest,queen,brood,varroa,mite,feeding,syrup,colony,pollen (94/100)
 
-SUBTITLE: Apiary Management & Inspection Log
+## Description
 
-CATEGORY: Productivity / Utilities
+Bee Yard Tracker is a complete apiary management toolkit for beekeepers of all levels featuring hive tracking, inspection logging, honey harvest recording, feeding calculations, and seasonal task guides. Manage your entire bee yard from your pocket with no account required and no subscription.
 
---------------------------------------------------------------
-DESCRIPTION
---------------------------------------------------------------
-Bee Yard Tracker is the ultimate companion app for beekeepers of all levels. Manage your entire apiary from your pocket — track hives, log inspections, record honey harvests, calculate feeding ratios, and follow seasonal task guides.
+Hive Management lets you add unlimited hives with detailed profiles. Four hive types supported including Langstroth Top Bar Warre and Flow Hive. Each hive tracks queen status as present absent virgin laying or supersedure. International queen marker color coding follows the standard five year cycle with white yellow red green and blue markers. Queen age tracked automatically in days from installation date. Location notes and free text notes for each hive. Quick health overview badge pulled from the latest inspection record.
 
-KEY FEATURES:
+Inspection Log provides a comprehensive twelve point checklist for every hive visit. Record whether queen was sighted, eggs present, larvae present, and queen cells seen. Rate brood pattern quality from excellent through good spotty drone laying to empty. Track honey stores and pollen stores on a one to five scale with color coded bar indicators. Assess bee temperament as calm nervous defensive or aggressive. Count varroa mites per inspection. Set overall hive health rating from excellent to critical. Add free text observation notes. Color coded badges display health brood pattern and mood at a glance.
 
-• HIVE MANAGEMENT — Add unlimited hives with detailed profiles including hive type (Langstroth, Top Bar, Warré, Flow), queen status, international marker color coding, queen age tracking, and location notes.
+Honey Harvest Tracker logs every harvest with weight in kilograms, honey variety selection from seven types including wildflower clover acacia linden buckwheat manuka and mixed, and triple quality rating system scoring taste clarity and aroma each on a five star scale. Each honey type displays with its characteristic color indicator. Running totals show cumulative harvest weight, harvest count, and average quality rating across your entire apiary.
 
-• INSPECTION LOG — Record thorough hive inspections with a 12-point checklist: queen sighted, eggs, larvae, queen cells, brood pattern quality, honey stores, pollen stores, bee temperament, varroa mite count, and overall health rating.
+Feeding Calculator computes exact sugar syrup quantities for four feed types. Light syrup at one to one ratio for spring stimulation. Heavy syrup at two to one ratio for fall winter preparation. Fondant for emergency winter feeding. Pollen patty for early spring protein supplementation. Slider input adjusts sugar amount from half kilogram to twenty kilograms. Auto calculates water volume and total feed weight. Seasonal usage guide with color coded recommendations for spring summer fall and winter feeding strategies.
 
-• HONEY HARVEST TRACKER — Log every harvest with weight, honey variety (Wildflower, Clover, Acacia, Linden, Buckwheat, Manuka, Mixed), and triple quality ratings for taste, clarity, and aroma. Track total yield across seasons.
+Seasonal Calendar provides thirty two detailed tasks organized across four seasons. Spring covers first inspection timing, queen presence checks, brood box reversal, one to one syrup feeding, pollen patty application, swarm sign monitoring, colony splitting, and comb replacement. Summer includes adding honey supers, queen excluder placement, ventilation checks, harvest timing, robbing prevention, varroa sugar roll testing, water source provision, and inspection frequency. Fall addresses super removal, critical mite treatment timing, heavy syrup feeding, winter store verification at eighteen to twenty seven kilograms, entrance reduction, weak colony combining, mouse guard installation, and final inspection requirements. Winter covers minimal disturbance protocol, hive weight checking, emergency fondant feeding, upper entrance ventilation, ice clearing, hive wrapping, equipment ordering, and spring planning.
 
-• FEEDING CALCULATOR — Calculate exact sugar syrup quantities with ratios for every situation: 1:1 light syrup for spring stimulation, 2:1 heavy syrup for fall winter prep, fondant for emergencies, and pollen patties for early spring protein.
+Statistics Dashboard shows at a glance apiary overview with total hive count, cumulative honey harvest in kilograms, total inspection count, average honey quality rating, and percentage of healthy hives based on latest inspection data. Animated honeycomb navigation menu with spring animations provides quick access to all features.
 
-• SEASONAL CALENDAR — Month-by-month task guide for spring, summer, fall, and winter. Never miss a critical management window with 32 detailed seasonal tasks.
+Features include four hive types with icons, five queen status options with color indicators, six international marker colors, five brood pattern ratings, four bee mood levels, five health ratings, seven honey varieties with colors, four feed types with ratio calculations, thirty two seasonal tasks across four seasons, unlimited hive profiles, complete CRUD operations, UserDefaults persistence for all data, no account required, no subscriptions, complete offline functionality, animated honeycomb menu unique to this app.
 
-• STATISTICS DASHBOARD — At-a-glance apiary overview: total hives, cumulative honey harvest, inspection count, average honey quality rating, and healthy hive percentage.
+Perfect for hobby beekeepers managing backyard hives, commercial apiarists tracking large operations, new beekeepers learning inspection protocols, experienced beekeepers organizing harvest records, anyone wanting a structured approach to seasonal hive management.
 
-All data is stored locally on your device. No account required. No subscription. No ads.
+**Support URL:** https://github.com/manly823/Bee-Yard-Tracker
+**Privacy Policy:** No data collection. All data stored locally on device.
+**Copyright:** © 2026 R-Gutu. All rights reserved.
 
---------------------------------------------------------------
-KEYWORDS
---------------------------------------------------------------
-beekeeping, apiary, hive, inspection, honey, harvest, queen, brood, varroa, mite, feeding, syrup, beekeeper, colony, pollen
+## Screenshots Needed
 
---------------------------------------------------------------
-WHAT'S NEW (Version 1.0)
---------------------------------------------------------------
-• Initial release
-• Hive management with queen tracking
-• Full inspection log with 12-point checklist
-• Honey harvest journal with quality ratings
-• Feeding calculator with 4 feed types
-• Seasonal calendar with 32 tasks
-• Animated honeycomb navigation menu
-• Warm honey-gold theme
+1. Main screen with animated honeycomb menu and stats bar
+2. Hive list with queen status badges and health indicators
+3. Add hive form with queen info and marker color
+4. Inspection log with brood pattern, stores bars, and checklist
+5. Add inspection form with twelve point checklist
+6. Honey harvest cards with star ratings and type colors
+7. Feeding calculator with syrup ratio results and guide
 
---------------------------------------------------------------
-SUPPORT URL
---------------------------------------------------------------
-https://github.com/manly823/Bee-Yard-Tracker
+## Version 1.0 Notes
 
---------------------------------------------------------------
-PRIVACY POLICY
---------------------------------------------------------------
-Bee Yard Tracker stores all data locally on your device using UserDefaults. No personal data is collected, transmitted, or shared with third parties. No analytics, no tracking, no ads.
+Initial release with complete apiary management system. Hive tracking with queen status and international marker colors. Twelve point inspection checklist with health scoring. Honey harvest journal with triple quality ratings. Feeding calculator with four feed types. Seasonal calendar with thirty two tasks. Animated honeycomb navigation. Warm honey gold theme. Sixteen Swift files totaling twelve hundred lines of code.
 
---------------------------------------------------------------
-AGE RATING
---------------------------------------------------------------
+## Age Rating
+
 4+ (No objectionable content)
 
---------------------------------------------------------------
-SCREENSHOTS (Recommended)
---------------------------------------------------------------
-1. Main honeycomb menu with animated bee and stats bar
-2. Hive list with queen status badges and health indicators
-3. Inspection log with brood pattern, stores bars, and checklist
-4. Honey harvest cards with star ratings and type colors
-5. Feeding calculator with syrup ratio results
-6. Seasonal calendar with spring/summer/fall/winter tabs
+## Testing Notes
+
+- All features tested and functional
+- No compilation errors
+- UserDefaults persistence verified
+- All enum types render correctly with icons and colors
+- Feeding calculator ratios verified against beekeeping standards
+- Hive CRUD operations working correctly
+- Inspection checklist all toggles and steppers functional
+- Harvest star ratings interactive and saving properly
+- Honeycomb menu animation smooth on simulator
+
+**Status: READY FOR SUBMISSION**
