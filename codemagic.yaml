@@ -34,7 +34,7 @@ workflows:
     # Настраивается в Codemagic: Settings → Integrations → App Store Connect
     # ──────────────────────────────────────────
     integrations:
-      app_store_connect: Serheyi Tyshchen2  # ← ЗАМЕНИ на имя твоей интеграции в Codemagic
+      app_store_connect: Serheyi Tyshchen  # ← ЗАМЕНИ на имя твоей интеграции в Codemagic
 
     # ──────────────────────────────────────────
     # Окружение: подпись, переменные, версия Xcode
